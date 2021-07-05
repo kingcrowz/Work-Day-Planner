@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"
+  ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          8am
+        </div>
+          <textarea class = "col-md-10 description btn8" id = "8">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched8">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          9am
+        </div>
+          <textarea class = "col-md-10 description btn9" id = "9">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched9">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          10am
+        </div>
+          <textarea class = "col-md-10 description btn10" id = "10">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched10">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          11am
+        </div>
+          <textarea class = "col-md-10 description btn11" id = "11">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched11">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          Noon
+        </div>
+          <textarea class = "col-md-10 description btnNoon" id = "12">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "schedNoon">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          1pm
+        </div>
+          <textarea class = "col-md-10 description btn1" id = "13">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched1">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          2pm
+        </div>
+          <textarea class = "col-md-10 description btn2" id = "14">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched2">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          3pm
+        </div>
+          <textarea class = "col-md-10 description btn3" id = "15">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched3">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          4pm
+        </div>
+          <textarea class = "col-md-10 description btn4" id = "16">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched4">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class = "row time-block">
+        <div class = "hour col-md-1">
+          5pm
+        </div>
+          <textarea class = "col-md-10 description btn5" id = "17">Schedule Open</textarea>
+        <button class = "saveBtn col-md-1" id = "sched5">
+          <i class="fas fa-save"></i>
+        </button>
+        </div>
+        <div class = "row time-block">
+          <div class = "hour col-md-1">
+            6pm
+          </div>
+            <textarea class = "col-md-10 description btn6" id = "18">Schedule Open</textarea>
+          <button class = "saveBtn col-md-1" id = "sched6">
+            <i class="fas fa-save"></i>
+          </button>
+      </div>
+
+      
+      <!-- Timeblocks go here -->
+      <!-- add missing html here i think(?) -->
+      <!-- have colors set for past, present, and future events **idk if this happens in html** -->
+      <!-- placeholder="Leave your name" -->
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src = "script.js"></script>
+  </body>
+</html>
