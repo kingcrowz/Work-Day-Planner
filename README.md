@@ -32,7 +32,12 @@ WHEN I refresh the page
 THEN the saved events persist
 
 
-The following animation demonstrates the application functionality:
+The following picture shows the functionality.  *Please note this was taken during the last time block hour, so future color isnt shown* 
+
+
+https://kingcrowz.github.io/Zaleski-05-homework/
+
+![website image](assets/images/Planner.png)
 
 
 
