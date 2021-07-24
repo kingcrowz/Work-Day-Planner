@@ -37,7 +37,7 @@ The following picture shows the functionality.  *Please note this was taken duri
 
 https://kingcrowz.github.io/Zaleski-05-homework/
 
-(Planner.png)
+![PlannerPicture](./Planner.png)
 
 
 
