@@ -9,7 +9,7 @@ Time blocks are color coded according to time
 The following picture shows the functionality.  *Please note this was taken during the last time block hour, so future color isnt shown* 
 
 
-https://kingcrowz.github.io/Zaleski-05-homework/
+https://kingcrowz.github.io/Work-Day-Planner/
 
 ![PlannerPicture](./Planner.png)
 
